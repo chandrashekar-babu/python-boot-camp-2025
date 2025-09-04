@@ -1,0 +1,17 @@
+Parse Errors (errors while parsing the python program):
+   - SyntaxError
+   - IndentationError
+
+
+Runtime Errors
+--------------
+    NameError -> invalid variable name or access to undefined variable
+    TypeError -> invalid type detected or object type is incompatible
+    ValueError -> incompatible value detected.
+    IndexError -> invalid index in a sequence
+    KeyError   -> invalid key in a map
+    AttributeError -> invalid attribute on an object
+
+    IOError -> invalid file or socket I/O operation
+    OSError -> error while executing underlying OS syscall
+

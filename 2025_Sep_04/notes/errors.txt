@@ -1,0 +1,14 @@
+Parse-time / compile-time errors
+--------------------------------
+   1. SyntaxError
+   2. IndentationError
+   3. TabError
+
+Runtime errors
+--------------
+   1. NameError -> Access to undefined variable
+   2. TypeError -> Expression was passed with incompatible typed object
+   3. ValueError -> Expression was passed with illegal value
+   4. IndexError -> Access to invalid index in a sequence
+
+ 

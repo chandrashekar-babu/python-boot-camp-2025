@@ -1,0 +1,45 @@
+Sequences -> str, unicode, tuple, list, bytearray, buffer
+
+Sequence operations
+-------------------
+  +  concatenation
+     a = 10, 20, 30
+     b = 40, 50, 60
+     c = a + b
+     print c
+     10, 20, 30, 40, 50, 60
+
+  * repetition
+     a = 10, 20
+     b = a * 5
+     print b
+     10, 20, 10, 20, 10, 20, 10, 20 ...
+
+  [] indexing / slicing
+     a[0]
+     a[-1]
+     a[2:3]
+     a[::2]
+
+Sequence methods
+----------------
+   a.index(element)
+   a.count(element)
+
+
+General sequence functions
+--------------------------
+len(s)
+min(s)
+max(s)
+all(s)
+any(s)
+
+sum(s)
+
+zip(s1, s2)
+enumerate(s)
+
+reversed(s)
+sorted(s)
+

@@ -1,0 +1,86 @@
+Conditional statements:
+=======================
+    ##############################################################
+    if [boolean-expression]:
+        <true-statement1>
+        <true-statement2>
+    elif [another-boolean-expression]:
+        <true-statement3>
+        <true-statement4>
+    else:
+        <false-statement1>
+        <false-statement2>
+
+    ###############################################################
+    if [boolean-expression]: <true-statement>
+
+    ###############################################################
+    <true-statement> if [boolean-expression] else <false-statement>
+
+
+Loops:
+======
+    ###############################################################
+    while [boolean-expression]:
+        <statement1>
+        <statement2>
+        if [some-condition]: break
+        if [some-other-condition]: continue
+        <statement3>
+        ....
+        <statement-n>
+    else: 
+        <statements-to-be-executed-if-loop-condition-fails>
+
+    ###############################################################
+    for element in iterable:
+        <statement1>
+        <statement2>
+        if [some-condition]: break
+        if [some-other-condition]: continue
+        <statement3>
+        ...
+        <statement-n>
+    else: 
+        <statements-to-be-executed-no-more-elements-from-iterable>
+
+
+Exception handling:
+===================
+    try:
+        <statement1>
+        <statement2>
+    except SomeError as error_object:
+        <error-handling-statements>
+    except SomeOtherError as error_object:
+        <error-handling-statements>
+    except Exception as error_object:
+        <catch-all-error-handling-statements>
+    else:
+        <statements-to-be-executed-if-no-exceptions>
+    finally:
+        <statements-to-be-executed-if-exceptions-or-no-exceptions>
+
+
+Context management:
+===================
+    with <context-manager-expression> as object:
+        <statement1>
+        <statement2>
+
+
+Function definition:
+====================
+    def function_name():
+       <function-body-statements>
+
+Class definition:
+=================
+    class ClassName:
+       <class-body-definitions>
+       ....
+
+
+
+
+    

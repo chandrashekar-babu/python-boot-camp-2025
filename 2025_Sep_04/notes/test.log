@@ -1,0 +1,5 @@
+print "Hello world"
+# OUT: Hello world
+a = "This is a test string"
+a.find("test")
+# OUT: 10

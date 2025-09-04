@@ -1,0 +1,29 @@
+Simple statements
+---------------------
+1. Simple assignment
+   a = 10
+   b = 20
+
+2. Tuple packing
+   a = 10, 20, 30
+
+3. Tuple unpacking
+   b, c, d = a
+
+4. Parallel assignment
+   a, b = 10, 20
+
+5. Assignment chainloading
+   a = b = c = 10
+   
+6. Augmented assignments
+   a += 10
+
+----------------------------
+del variable_name
+
+print variable, expression
+
+
+
+

@@ -1,0 +1,10 @@
+Immutable objects
+Hashable objects
+Iterable objects
+     Collection
+        -> Sequence : An ordered collection of items
+             str (string)
+             unicode
+             bytearray
+             tuple
+

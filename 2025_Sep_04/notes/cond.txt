@@ -1,0 +1,5 @@
+ret = open(....);
+if (-1 = ret) {
+    printf("....\n");
+}
+

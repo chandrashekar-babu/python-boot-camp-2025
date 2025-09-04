@@ -1,0 +1,12 @@
+sum()
+max(), min(), all(), any()
+
+sorted(), reversed()
+
+enumerate(), zip(), itertools.izip()
+
+iter()
+
+len()
+
+

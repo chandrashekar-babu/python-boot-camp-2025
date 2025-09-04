@@ -1,0 +1,62 @@
+-------------------------------------------------------------------
+if [boolean-expression]:
+    <true-statement1>
+    <true-statement2>
+elif [another-boolean-expression]:
+    <true-statement3>
+    <true-statement4>
+else:
+    <false-statement1>
+    <false-statement2>
+-------------------------------------------------------------------
+if [boolean-expression]: <true-statement>
+-------------------------------------------------------------------
+<true-statement> if [boolean-expression] else <false-statement>
+-------------------------------------------------------------------
+===================================================================
+while [boolean-expression]:
+    <statement1>
+    <statement2>
+    if [some-condition]: break
+    if [some-other-condition]: continue
+    <statement3>
+    ....
+    <statement-n>
+-------------------------------------------------------------------
+===================================================================
+for element in iterable:
+    <statement1>
+    <statement2>
+-------------------------------------------------------------------
+===================================================================
+try:
+    <statement1>
+    <statement2>
+except SomeError, error_object:
+    <error-handling-statement>
+except SomeOtherError, error_object:
+    <error-handling-statement>
+except:
+    <catch-all-error-handling-statement>
+-------------------------------------------------------------------
+===================================================================
+with [context-manager-expression] as object:
+    <statement1>
+    <statement2>
+-------------------------------------------------------------------
+===================================================================
+del identifier-name
+raise Exception("Some exception string message")
+global identifier-name
+import module-name
+
+class ClassName:
+   <class-definitions>
+   ....
+
+def function_name():
+   <function-statements>
+
+
+
+    

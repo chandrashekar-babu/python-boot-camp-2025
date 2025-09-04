@@ -1,0 +1,17 @@
+a = "He said - I'll be back"
+a = 'He said "I will be back" and we waited'
+a = "He said - \"I'll be back\" and we waited"
+a = 'He said - "I\'ll be back" and we waited'
+
+a = """He said - "I'll be back" and we waited"""
+
+install_path = r'C:\backup\remote\network\temp\assorted'
+unicode_data = u'Hello world'
+---------------------------------------------------------
+String operators
+----------------
+  %  - String format operator
+  +  - String concatenation (from sequence)
+  *  - String repetition (from sequence)
+  [] - String index operator (from sequence)
+

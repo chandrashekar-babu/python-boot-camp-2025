@@ -1,0 +1,52 @@
+1. print tuple          # Prints each element of a tuple as a string
+   print "Hello world", "another string", 10, 5.6
+
+2. Assignments
+   a = 10               # simple assignment
+   a = 10, 20           # tuple packing
+   b, c = a             # tuple unpacking
+   a, b = 10, 20        # parallel assignment
+   a += 5               # augmented assignment
+   a = b = c = 10       # assignment chain-loading
+
+3. del variable_or_ref  # Remove a variable or a reference    
+   del a                # Remove the variable 'a' and
+                        # decrement the reference count 
+                        # of the object referred by 'a'
+
+4. import module        # Load a module and in the module namespace
+
+   import sys           # Load a module called 'sys'
+   sys.version          # Access members of 'sys' module using 'sys' namespace
+
+   import sys as system # Load a module called 'sys' under 'system' namespace
+   system.version       # Access member called 'version' from 
+                        # 'system' namespace
+
+
+5. from module import member  # Load a module and make members of that module
+                              # accessible in the current namespace
+
+   from sys import getsizeof  # getsizeof() function can now be accessed
+                              # directly without namespace resolution.
+
+
+   from sys import getsizeof as sizeof    # import a member named 'getsizeof' 
+                                          # from module named 'sys' as a
+                                            new name 'sizeof'
+
+
+6. pass                 # Represent a do-nothing statement
+
+7. raise SomeError      # Raise a runtime exception of type SomeError
+
+8. assert expression    # Assert expression to be true
+-------------------------------------------------------------------------------
+Other simple statements
+-----------------------
+9.  return value        # Return a value from a function
+10. break               # Break out of a while/for loop
+11. continue            # Skip to next iteration of while/for loop
+12. yield value         # Yield a value to the generator
+13. global variable     # Declare a variable in a function to be global
+

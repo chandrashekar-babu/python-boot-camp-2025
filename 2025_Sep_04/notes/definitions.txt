@@ -1,0 +1,22 @@
+1. Assignment statement
+-----------------------
+a = 100
+name = "john"
+
+2. function definition
+----------------------
+def greet(): print "Hello world"
+
+3. module definition / module loading
+-------------------------------------
+import sys
+from sys import version
+
+4. class definition
+-------------------
+class Person: pass
+
+
+To remove variable: 
+   del variablename
+

@@ -1,0 +1,8 @@
+TypeError -> Invalid object type
+ValueError -> Invalid data (value)
+NameError  -> Invalid reference (variable)
+IndexError -> Invalid index in a collection
+KeyError   -> Invalid key in a dictionary
+IOError    -> read/write failure on file/socket
+OSError    -> invalid OS operation
+

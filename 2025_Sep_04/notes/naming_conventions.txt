@@ -1,0 +1,27 @@
+All variable names should start with lower-case and contain alphabets and _
+    max_count  
+    user_name
+
+functions must start with a verb
+    run_command
+    start_process
+    kill_process
+    wait_for_thread
+
+Module names must also start with lower-case and contain alphabets and _
+    import time
+    import sys
+
+boolean functions start with is_
+    is_prime()
+    is_lower()
+
+
+All classes follow CamelCase convention and start with Capital letter
+    CustomerOrder
+    InvoiceInfo
+
+Constants are all capital letters
+    MAX_COUNT
+    PI_VALUE
+

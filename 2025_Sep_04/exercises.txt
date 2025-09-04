@@ -1,0 +1,28 @@
+                  Hands-On exercises 
+
+************************************************************
+Exercise 1: 
+   Download the exercise file from the following URL:
+       http://www.tinyurl.com/hcf-ex
+
+   Implement the hcf() function that should return 
+   the highest common factor (or greatest common divisor) 
+   of two integers passed as arguments
+
+************************************************************
+Exercise 2: 
+   Download the exercise file from the following URL:
+       http://www.tinyurl.com/primes-ex
+
+   Implement the function is_prime() - which should
+   return True if a number passed as its argument is a 
+   prime number, else False. 
+
+   Also implement the function print_primes() which should
+   print the first 'n' prime numbers where 'n' is an integer
+   passed as its argument.
+*************************************************************
+Kindly avoid google search / stack overflow or any form of
+ready-made solutions from the Internet!
+
+

@@ -1,0 +1,11 @@
+Write a program to check if a number is prime or not
+
+
+$ python is_prime.py
+Enter a number: 13
+13 is a prime number
+
+$ python is_prime.py
+Enter a number: 45
+45 is NOT a prime number
+

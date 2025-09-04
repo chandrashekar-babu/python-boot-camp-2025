@@ -1,0 +1,14 @@
+a = "Hello"
+for c in a: print c,
+
+
+it = iter(a)
+
+try:
+   while True:
+      c = it.next()
+      print c,
+except StopIteration:
+   pass
+
+

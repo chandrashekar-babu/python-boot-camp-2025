@@ -1,0 +1,4 @@
+1. Type constructors (type conversion functions)
+2. Generalized functions (work on broader range of object types)
+3. Introspection functions
+

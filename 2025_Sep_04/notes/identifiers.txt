@@ -1,0 +1,43 @@
+In Python, identifiers can be:
+  a. variable name
+  b. function name
+  c. class name
+  d. module name
+  e. constants
+
+Naming conventions
+------------------
+1. Variables
+   count
+   name
+   
+   word_count
+   program_name
+
+2. Functions
+   is_prime()
+   generate_primes()
+
+   gen_values()
+
+3. Classes
+   EmployeeInfo
+
+4. Modules
+   sys
+   os
+   flask
+
+5. Constants
+   ---------
+   MAX = 100
+   MAX_VALUE = 500
+
+
+
+
+
+
+
+
+

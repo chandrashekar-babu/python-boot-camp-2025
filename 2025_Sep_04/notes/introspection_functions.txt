@@ -1,0 +1,6 @@
+type(variable)
+id(variable)
+dir(variable)
+help(variable)
+help(variable.attribute)
+

@@ -1,0 +1,38 @@
+NoneType -> None
+
+bool -> True, False
+
+Numeric 
+   int, float, long, complex
+   fractions.Decimal, fractions.Fraction
+
+
+Iterable Objects
+   Collection
+      Sequences            -> Ordered collection of elements
+         str (String)      -> "hello", 'hello', """hello""", r'hello'
+         unicode           -> u'hello world'
+         tuple             -> (10, "hello", 3.4)
+-----------------------------------------------------------------------------------
+         bytearray         -> bytearray('hello world')
+         list              -> [10, "hello", 3.4]
+         collections.deque -> deque([22, 33, 44, 55])
+
+      Set                  -> Unordered collection of unique hashable objects
+         set               -> {33, 44, 54, 12, 56}
+
+      MappingType          -> Unordered collection of key:value pair
+         dict              -> {
+                               "name" : "Smith", 
+                               "city" : "New York", 
+                               "host" : "44.33.21.45", 
+                               "port" : 8080 
+                              } 
+         collections.OrderedDict
+
+   xrange object
+   File objects
+   Generators
+   Views
+
+

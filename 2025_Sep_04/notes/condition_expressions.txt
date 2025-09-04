@@ -1,0 +1,24 @@
+a == b
+a != b, a <> b
+a > b
+a < b
+a >= b
+a <= b
+
+a is b
+a is not b
+
+33 in (11, 22, 33, 44, 55, 66)
+
+"test" not in "this is a dummy string"
+
+
+and
+or
+not
+
+if not a == b
+if a != b
+
+
+

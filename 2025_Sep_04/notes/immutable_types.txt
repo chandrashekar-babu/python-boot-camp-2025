@@ -1,0 +1,6 @@
+NoneType (None)
+bool (True / False)
+numbers (int, float, long, complex)
+sequences -> str, unicode, tuple
+set -> frozenset
+

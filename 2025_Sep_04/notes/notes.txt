@@ -1,0 +1,10 @@
+1. All variables are references to Objects
+2. All identifiers are variables
+   a. Function name
+   b. Class name
+   c. Module name
+   d. Other variable names
+
+3. All assignments are "assign by references"
+4. Every object is uniquely identified by the object-id.
+

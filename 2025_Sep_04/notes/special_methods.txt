@@ -1,0 +1,30 @@
++   __add__
+-   __sub__
+*   __mul__
+/   __div__
+**  __pow__
+//  __floordiv__
+%   __mod__
+
+<<  __lshift__
+>>  __rshift__
+|   __or__
+&   __and__
+^   __xor__
+~   __neg__
+
+
++= __iadd__    # a += 1 --> a.__iadd__(1)
+-= __isub__
+....
+
+
+a == b
+a.__cmp__(b) == 0
+
+a > b
+a.__cmp__(b) > 0
+
+a < b
+a.__cmp__(b) < 0
+
