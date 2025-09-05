@@ -1,7 +1,7 @@
 +   __add__
 -   __sub__
 *   __mul__
-/   __div__
+/   __truediv__
 **  __pow__
 //  __floordiv__
 %   __mod__
