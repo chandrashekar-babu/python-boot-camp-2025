@@ -5,6 +5,7 @@ c = a / b   # c = a.__truediv__(b)
 c = a % b   # c = a.__mod__(b)
 c = a // b  # c = a.__floordiv__(b)
 c = a ** b  # c = a.__pow__(b)
+c = a @ b   # c = a.__matmul__(b)
 
 c = -a      # c = a.__neg__()
 
@@ -17,3 +18,11 @@ c = a << 1  # c = a.__lshift__(1)
 c = a >> 1  # c = a.__rshift__(1)
 
 
+c = a == b  # c = a.__eq__(b)
+c = a != b  # c = a.__ne__(b)
+
+c = a < b   # c = a.__lt__(b)
+c = a > b   # c = a.__gt__(b)
+
+c = a <= b   # c = a.__le__(b)
+c = a >= b   # c = a.__ge__(b)
